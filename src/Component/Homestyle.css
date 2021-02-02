@@ -1,0 +1,59 @@
+*{
+    font-family: 'Tajawal'!important;
+  }
+.Container{
+position: absolute;
+top:0;
+height: 100vh;
+overflow: hidden;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.mainimage{
+    top: 25%;
+    height: 350px;
+    width: 400px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+background-image: url('../img/main.png');
+}
+.Container .Row{
+height: 100%;
+}
+.Container .Col{
+height: 100%;
+}
+.Container h1{
+position: absolute;
+left: 50%;
+top: 40%;
+transform: translate(-50%,-50%);
+color: #FFFF;
+font-size: 9rem;
+width: 100%;
+font-weight: 100;
+text-align: center;
+}
+.Container h1 span{
+color: #f08618;
+}
+.overlay{
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background: #0e0e0e;
+}
+
+/*start media*/
+@media(min-width:320px) and (max-width:992px){
+.Container .mainimage{
+height: 320px;
+width: 320px;
+}
+}
