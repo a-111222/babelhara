@@ -2,7 +2,7 @@ import React,{useState,useEffect} from "react";
 import './App.css';
 import './Component/StyleComponent.css';
 import Nav from './Component/Nav';
-import GridLoader from "react-loader-spinner";
+import GridLoader from "react-spinners/GridLoader";
 
 function App() {
   const [loading,setLoading] = useState(false);//default is false 
@@ -10,7 +10,7 @@ function App() {
   setLoading(true)
     setTimeout(()=>{
       setLoading(false)
-  },500)//i make it false to stop this loading after 8000s 
+  },5000)//i make it false to stop this loading after 8000s 
   },[])
 
   return (
