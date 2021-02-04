@@ -68,7 +68,10 @@ width: 400px;
 background: red;
 float: left;
 }
-
+/*start loading page*/
+.css-1yp4tjv{
+  margin: 0 auto;
+}
 /*start media style*/
 @media(min-width:320px) and (max-width:499px){
 .parent{

@@ -6,6 +6,7 @@ import "./Scrolltotop.css";
 import './Menue.css';
 import { HashLink } from 'react-router-hash-link';
 import Footer from './Footer';
+import GridLoader from "react-spinners/GridLoader";
 
 const Menue = () => { 
   const [images, setImages] = useState([]);
@@ -15,9 +16,28 @@ const Menue = () => {
     });
   },[]);
 
+  const [loading,setLoading] = useState(false);//default is false 
+  useEffect(()=>{//this effect will make from him true
+  setLoading(true)
+    setTimeout(()=>{
+      setLoading(false)
+  },5000)//i make it false to stop this loading after 8000s 
+  },[])
+
   const menueImages = images.map((imageItem) => {
     return (
+   
       <div className="parent">
+              {
+      loading ?
+
+      <GridLoader
+
+        color={"#FC9D00"}
+        loading={loading}
+        size={30}
+        margin={3} />
+      :
         <div className="ImageWrapper" key={imageItem.id}>
        <HashLink to={imageItem.link} >
             <div className="Overlay"> </div>
@@ -27,6 +47,7 @@ const Menue = () => {
         </HashLink>
 
         </div>
+  }
       </div>
     );
   });
