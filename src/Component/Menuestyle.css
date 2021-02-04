@@ -69,6 +69,12 @@ background: red;
 float: left;
 }
 /*start loading page*/
+.loading{
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+
+}
 .css-1yp4tjv{
   margin: 0 auto;
 }
