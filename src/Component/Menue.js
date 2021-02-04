@@ -21,7 +21,7 @@ const Menue = () => {
   setLoading(true)
     setTimeout(()=>{
       setLoading(false)
-  },1000)//i make it false to stop this loading after 8000s 
+  },2000)//i make it false to stop this loading after 8000s 
   },[])
 
   const menueImages = images.map((imageItem) => {
