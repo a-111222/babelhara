@@ -25,7 +25,6 @@ function App() {
         loading={loading}
         size={30}
         margin={3} />
-
       :
 <div className="contet-app">
 <Nav/>

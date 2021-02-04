@@ -223,7 +223,13 @@ transform: translateY(-1000px) rotate(360deg);
 }
 
 /*start footer*/
+.test{
+    position: relative;
+}
 .mainFooter{
+    position: absolute;
+    bottom: 0;
+    z-index: 9;
     width: 100%;
     margin: 0 auto;
     background: #0e0e0e;
