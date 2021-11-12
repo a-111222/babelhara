@@ -1,0 +1,30 @@
+body{
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    background: #0e0e0e;
+    scroll-behavior: smooth!important;
+    font-family: 'Tajawal', sans-serif!important;
+  }
+  .fas{
+    font-family: "Font Awesome 5 Free"!important;
+
+  }
+  .App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .contet-app{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  title{
+    color: red;
+    background-image: url('./img/main.png');
+  }

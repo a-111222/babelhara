@@ -1,0 +1,94 @@
+*{
+    font-family: 'Tajawal'!important;
+  }
+.Container{
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainimage{
+    background-image: url('../img/main.png');
+    top: 50%;
+    left: 50%;
+    background-repeat: no-repeat;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    float: left;
+    display: block;
+    height: 500px;
+    margin: 20% 0%;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.mainContext{
+  position: relative;
+  float: left;
+  display: block;
+  bottom: 0%;
+  transform: translate(-50%);
+  left: 50%;
+  display: block;
+  float: left;
+  width: 100%;
+}
+.mainContext a{
+  width: 100%;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+  letter-spacing: 1.4px;
+  font-weight: 100;
+  font-size: 2.2rem;
+
+}
+.mainContext .hotLine{
+  color:#f08618;
+  font-size: 4rem;
+}
+.mainContext a::before{
+  content:"\f879";
+  font-family: "Font Awesome 5 Free"!important;
+  font-weight: bold;
+  margin-right: 5px;
+  color: #f59324;
+}
+.Container .mainContext .Info{
+display: none!important;
+}
+.Container .Row{
+height: 100%;
+}
+.Container .Col{
+height: 100%;
+}
+.Container h1{
+position: absolute;
+left: 50%;
+top: 40%;
+transform: translate(-50%,-50%);
+color: #FFFF;
+font-size: 9rem;
+width: 100%;
+font-weight: 100;
+text-align: center;
+}
+.Container h1 span{
+color: #f08618;
+}
+.overlay{
+  position: fixed;
+  top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background: #0e0e0e;
+}

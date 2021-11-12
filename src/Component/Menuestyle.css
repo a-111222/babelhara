@@ -1,0 +1,121 @@
+*{
+    font-family: 'Tajawal'!important;
+  }
+
+  .ImageWrapper {
+    width: 100%;
+    float: left;
+    font-size: 0;
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+  }
+  .Image {
+    width: 100%;
+    height: 100%;
+  }
+  .H2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    color: #fff;
+    font-weight: bold;
+    font-size: 4rem;
+    width: 78%;
+    text-align: center;
+    z-index: 99999 !important;
+    background: #f78916;
+    padding-bottom: 10px;
+  }
+  .Overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 0.7;
+    z-index: 1;
+  }
+  
+.parent{
+width: 100%;
+display: flex;
+align-items: center;
+justify-items: center;
+margin: 0 auto;
+align-items: center;
+justify-items: center;
+height: 550px;
+margin-bottom: 2%;
+
+z-index: 9999999999999;
+}
+.MenueContainer{
+background: #0e0e0e;
+width: 100%;
+color: aliceblue;
+}
+.Parent{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Parent .Child{
+height:400px;
+width: 400px;
+background: red;
+float: left;
+}
+/*start loading page*/
+.loading{
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+
+}
+.css-1yp4tjv{
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
+/*start media style*/
+@media(min-width:320px) and (max-width:499px){
+.parent{
+margin-top: 10%;
+height: 240px;
+}
+.parent .ImageWrapper{
+width: 100%;
+}
+.ImageWrapper .H2{
+font-size: 2.2rem;
+width:90%
+}
+}
+@media (min-width:500px) and (max-width:650px){
+.parent{
+height: 350px;
+margin-top: 10%
+}
+.parent .ImageWrapper{
+width:100%;
+}
+.ImageWrapper .H2{
+font-size: 3rem;
+width:90%
+}
+}
+@media (min-width:650px) and (max-width:750px){
+.parent{
+width: 90%;
+height: 400px;
+}
+.parent .wrapper{
+width: 100%;
+}
+}

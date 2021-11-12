@@ -1,0 +1,48 @@
+*{
+    font-family: 'Tajawal'!important;
+  }
+.Links{
+text-align: center;
+padding-top: 3%;
+padding-bottom: 5%;
+}
+.Col{
+display: inline;
+text-decoration: none;
+}
+.Col a {
+text-decoration: none !important;
+color: #FFF;
+letter-spacing: 1.2px;
+font-weight: bold;
+font-size: 2rem;
+margin: 0 2% 0 2%;
+}
+.Col .Active{
+color: #f78916!important;
+}
+.Col a:hover{
+color: #f78916;
+}
+.Links{
+z-index: 9999999;
+position: relative;
+}
+/*start media*/
+@media(min-width:320px) and (max-width:450px){
+.Links{
+padding-top: 13%;
+}
+.Col a{
+font-size: 1.2rem;
+}
+.Container h1{
+font-size: 6rem;
+}
+}
+/*start media tablate*/
+@media (min-width:450px) and (max-width:650px){
+.Col a{
+font-size: 1.8rem;
+}
+}
